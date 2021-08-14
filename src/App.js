@@ -8,7 +8,7 @@ import {
 import HomePage from './pages/homePage'
 import DayDetail from './pages/dayDetail'
 import ErrorPage from './pages/errorPage'
-import './style/index.scss'
+import './Style/index.scss'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 export default function App() {
