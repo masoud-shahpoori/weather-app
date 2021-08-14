@@ -1,0 +1,26 @@
+.inline-div{display: inline-block;}
+.container-daily-forecast{background-color: #C1CFEA;
+margin: 5px;
+padding: 5px 10px;
+border-radius: 10px;
+display: block;
+overflow: auto;}
+.container-total-inf-today{
+margin: 5px;padding: 5px;
+background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 236, 210));
+border-radius:10px;
+min-height: 150px;}
+
+.container-hourlu-inf-today{margin: 5px;padding: 5px;
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 236, 210));
+    min-height: 150px;
+}
+
+.container-city-name{color: rgb(122, 122, 122);
+font-size: 14;
+letter-spacing:-.3px}
+
+.container-forecast-hourly{margin: 3px;
+border: 1px solid #ccc;
+padding: 5px;
+border-radius:5px}

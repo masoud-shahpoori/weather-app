@@ -1,0 +1,26 @@
+@import '../product/product.scss';
+@import '../components/Loading/Loading.scss';
+@import './responsive.scss';
+
+a{color: #000 !important;
+text-decoration: none !important}
+.main-section{
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url("./../image/cloud-blue-sky.jpg") center  no-repeat;
+background-size: cover;
+height: 300px;
+position: relative;
+ .container-search-input{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 30%;
+
+    p{color: #fff;
+    text-align: left;}
+    input{
+        padding: 5px 10px;
+        width: 100%;
+    }
+}
+}
